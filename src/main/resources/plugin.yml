@@ -1,0 +1,6 @@
+name: SpawnFence
+version: ${project.version}
+main: com.lawlessmc.spawnfence.SpawnFencePlugin
+api-version: '26.2'
+authors: [wilder0p]
+description: Worldborder 2048x2048 and refuse joins while survival is reachable.

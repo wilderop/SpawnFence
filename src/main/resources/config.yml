@@ -1,0 +1,12 @@
+# Replica only. Never install on live survival.
+survival-host: 127.0.0.1
+survival-port: 30004
+# TCP checks. Join is denied while survival is considered up.
+check-interval-ticks: 40
+fall: 3
+rise: 2
+connect-timeout-ms: 1500
+# Diameter in blocks. 2048 = ±1024, matching r.-2.-2 .. r.1.1.
+worldborder-size: 2048
+kick-if-survival-up: true
+kick-message: "Survival is back. Reconnect to lawlessmc.com"
